@@ -14,6 +14,5 @@ jobs:
     - uses: tgymnich/fork-sync@v1.8
       with:
         token: ${{ secrets.CODEFLARE_MACHINE_ACCOUNT_TOKEN }}
-        owner: Bobbins228
         base: main
         head: main
